@@ -1,8 +1,9 @@
 # AWS IAM (Identity and Access Management) Notes
 
-                       Architecture Diagram
+### Architecture Diagram
 
 🏗️ IAM Integration with AWS Services
+```
                     +--------------------------+
                     |    IAM (Central Control) |
                     +--------------------------+
@@ -22,6 +23,8 @@
    +-------------------+                   +--------------------+
    | Access AWS S3     |                   | Access DynamoDB    |
    +-------------------+                   +--------------------+
+```
+
 
 
 ## 1. IAM User
