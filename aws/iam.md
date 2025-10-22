@@ -117,11 +117,9 @@ A group is a collection of IAM users. You attach permissions to the group, and a
 Both users get read-only S3 access.
 
 ### Use Case
-Easier permission management when you have multiple users with the same access needs.
-
-when added user to group the user will get both user level and group level permission 
-
-If a user has a deny permmision of that policy attached to group then it gets more priority 
+- Easier permission management when you have multiple users with the same access needs.
+- when added user to group the user will get both user level and group level permission 
+- If a user has a deny permmision of that policy attached to group then it gets more priority 
 
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
